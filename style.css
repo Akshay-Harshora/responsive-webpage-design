@@ -1,0 +1,282 @@
+
+.headerset
+{
+position:relative;
+}
+.headerset::after{
+    content:"";
+    position:absolute;
+    background-image: url("Ellipse\ 58.png");
+    width:65px;
+    height:65px;
+    background-repeat: no-repeat;
+    top:30px;
+    right:50px;
+}
+.headerset
+{
+position:relative;
+}
+.headerset::before{
+    content:"";
+    position:absolute;
+    background-image: url("Group\ 654.png");
+    width:65px;
+    height:65px;
+    background-repeat: no-repeat;
+    top:110px;
+    left:0px;
+} 
+
+.headerset
+{
+    padding :40px;
+    
+}
+.rspace
+{
+    padding-left:0;
+}
+p{
+    font-family:"Poppins";
+    font-size: 18px;
+    
+}
+
+#aboutsection
+{
+    padding-top:45px;
+    padding-bottom: 45px;
+}
+#bappoint
+{
+    margin-top:45px;
+    
+}
+.footer
+{
+    
+    padding-bottom: 17px;
+}
+#oservices
+{
+    padding-top:45px;
+}
+#ourservices
+{
+    padding-bottom: 45px;
+}
+#appointsection
+{
+    padding-bottom:45px;
+}
+
+.abovefooter
+{
+    padding-top:45px;
+    padding-bottom: 45px;
+}
+.mainfooter
+{
+    background: #FEFCF8;
+}
+#home:active
+{
+    color: #F69727;
+}
+#technology:active
+{
+    color: #F69727;
+}
+#careers:active{
+    color: #F69727;
+}
+#about:active
+{
+    color:#F69727;
+}
+#work:active
+{
+    color: #F69727;
+}
+#contact:active{
+    color: #F69727;
+}
+.change
+{
+    color:#F69727;
+}
+.change span{
+    color:black;
+}
+#navbarScrollingDropdown:active
+{
+    color: #F69727;
+
+}   
+
+.custm-card{
+    background-color: #fff;
+    margin-bottom: 20px;
+    
+}
+@media only screen and (min-width:315px) and (max-width: 352px)
+{
+    .headerset::after{
+        content:"";
+        position:absolute;
+        background-image: url("Ellipse\ 58.png");
+        width:65px;
+        height:65px;
+        background-repeat: no-repeat;
+        top:30px;
+        right:10px;
+    }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    #aboutsection
+    {
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+    #bappoint
+    {
+        margin-top:30px;
+        
+    }
+    .footer
+    {
+        padding-bottom: 17px;
+    }
+    #oservices
+    {
+        padding-top:30px;
+    }
+    #ourservices
+    {
+        padding-bottom: 30px;
+    }
+    #appointsection
+    {
+        padding-bottom:30px;
+    }
+    
+    .abovefooter
+    {
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+        
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #aboutsection
+    {
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    #bappoint
+    {
+        margin-top:20px;
+        
+    }
+    .footer
+    {
+        padding-bottom: 17px;
+    }
+    #oservices
+    {
+        padding-top:20px;
+    }
+    #ourservices
+    {
+        padding-bottom: 20px;
+    }
+    #appointsection
+    {
+        padding-bottom:20px;
+    }
+    
+    .abovefooter
+    {
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+        
+    
+}
+@media only screen and (min-width:490px) and (max-width:767px)
+{
+    .footer
+    {
+        font-size: 11px;
+    
+    }
+}
+@media only screen and (max-width:489px)
+{
+    .footer
+    {
+        font-size: 7px;
+    
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    #collision
+    {
+        padding-left: 40px;
+    }
+}
+@media only screen and (min-width: 315px) and (max-width: 680px) {
+    #aboutsection
+    {
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    #bappoint
+    {
+        margin-top:10px;
+        
+    }
+    .footer
+    {
+        padding-bottom: 17px;
+    }
+    #oservices
+    {
+        padding-top:10px;
+    }
+    #ourservices
+    {
+        padding-bottom: 10px;
+    }
+    #appointsection
+    {
+        padding-bottom:10px;
+    }
+    
+    .abovefooter
+    {
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    
+        
+    
+}
+
+/* .bgimage
+{
+    background-image: url("Vector 351.png");
+    background-position: right;
+    background-size: 650px;
+    background-repeat: no-repeat;
+} */
+/* .bgimage1
+{
+    background-image:url("footer-map-80b0cb4fab6933f0cf7d485070e2fdd5 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+} */
